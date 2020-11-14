@@ -1,0 +1,29 @@
+.all-news {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border: 1px solid lightgray;
+  grid-gap: 20px;
+}
+
+.news {
+  /* max-width: 500px; */
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.news-title {
+  padding-bottom: 1px;
+}
+
+.head__text {
+  margin-top: 30px;
+}
+
+.news-desc {
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
